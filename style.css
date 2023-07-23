@@ -1,0 +1,47 @@
+body {
+	 font-family: Montserrat, Ubuntu,sans-serif;	
+}
+
+html{ scroll-behavior: smooth;
+	   cursor: pointer;
+}
+section{
+	margin-top: 80px;
+}
+.carousel-caption h3 {
+	font-size: 48px;
+}
+	
+.carousel-caption {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.carousel-inner, .carousel-item {
+  height: 100vh;
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+.service i {
+	font-size: 20px;
+}
+.color_contacts {background-color: #eff2f5;}
+
+.color_footer {background-color: #d1e0e0;}	
+
+h3, h4, h5 {
+	font-family: 'Georgia',Ubuntu, sans-serif;
+}
+.products .card img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.change_color:hover{
+	color: #ffcc00!important;
+}
+.btn_add_to_cart:hover {
+	background-color: yellow;
+}
